@@ -46,7 +46,7 @@ function handleCardClick(clickedCard) {
 function sendWhatsapp() {
   const message = document.getElementById('message').value;
 
-  const url = "https://web.whatsapp.com/send?phone=6281239943191&text=Hallo%20KK%20Benox%20Tanggapan%20saya%20*"+ message +"*"
+  const url = "https://api.whatsapp.com/send?phone=6281239943191&text=Hallo%20KK%20Benox%20Tanggapan%20saya%20*"+ message +"*"
 
 window.open(url)
 
