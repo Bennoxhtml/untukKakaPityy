@@ -1,0 +1,999 @@
+* {
+  font-family: "poppins", sans-serif;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  outline: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Page 1 */
+
+.head {
+  margin: auto;
+  text-align: center;
+  min-height: 100dvh;
+  gap: 2rem;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  animation: apper 7s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+  
+  
+}
+
+.head h1 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  animation: apper 7s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+  
+}
+
+.head h1 span {
+  color: rgb(239, 24, 92);
+  font-size: 2.8rem;
+  animation: apper 7s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.head p {
+  font-size: 1.5rem;
+  margin-bottom: 7rem;
+  animation: apper 7s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.head h2 {
+  font-size: 1.6em;
+  cursor: row-resize;
+  animation: apper 7s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.hl2 {
+  margin: auto;
+  text-align: center;
+  min-height: 100dvh;
+  gap: 1em;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;animation: apper 7s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.hl2 h1 {
+  font-size: 2em;
+  animation: apper 7s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.hl2 h3 {
+  font-size: 1.7em;
+  animation: apper 7s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.hl2 p {
+  font-size: 15px;
+  padding-bottom: 5em;
+  animation: apper 7s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.bwh {
+  margin: auto;
+  text-align: center;
+  min-height: 100dvh;
+  gap: 1.6rem;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  animation: apper 7s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.bwh h1 {
+  font-size: 2em;
+  animation: apper 7s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.bwh a {
+  margin-top: 2em;
+  background-color: rgb(218, 12, 105);
+  color: #fff;
+  max-width: 200px;
+  align-items: center;
+  display: flex;
+  padding: 9px 19px;
+  justify-content: center;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 24px;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.512);
+  transition: 0.3s ease;
+  animation: apper 7s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.bwh a:hover {
+  background-color: #fff;
+  color: #000;
+  transform: scale(1.1);
+  animation: apper 7s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+/* Page 2 */
+
+.card h1,h2,p {
+  animation: apper 7s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.img-up {
+  object-fit: cover;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  max-width: 200px;
+  margin: 0 auto;
+  border-radius: 50%;
+  box-shadow: 0 0 34px rgb(255, 0, 153);
+  position: relative;
+  transition: 0.3s ease;
+  outline: 9px solid #fff;
+  animation: apper 7s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.img-up:hover {
+  aspect-ratio: 3/4;
+  outline: 4px solid #fff;
+  transform: scale(1.2);
+  filter: grayscale(100%);
+  border-radius: 34px;
+}
+
+.hlmn1 {
+  margin: auto;
+  text-align: center;
+  min-height: 100dvh;
+  gap: 1.3rem;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+  color: #fff;
+  text-shadow: 0 0 24px #ffffff7e;
+  animation: apper 7s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.hlmn1 h1 {
+  font-size: 1.4rem;
+  animation: apper 7s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.hlmn1 h1 span {
+  font-size: 1.9rem;
+  color: rgb(221, 0, 107);
+  animation: apper 7s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.hlmn1 p {
+  font-size: 13px;
+  font-weight: 500;
+  animation: apper 7s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 20%;
+}
+
+.hlmn2 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 0)
+    ),
+    url(/img/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  color: #fff;
+  margin: auto;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  gap: 1.2rem;
+  padding-bottom: 4em;
+  
+  
+}
+
+.hlmn2 h1 {
+  font-size: 1.9rem;
+  animation: apper 7s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+  margin-top: 5rem;
+}
+
+.hlmn2 h1 span {
+  color: orange;
+  font-size: 2.5rem;
+  font-weight: 700;
+  animation: apper 7s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.hlmn2 .card img {
+  max-width: 200px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 12px;
+  outline: 7px solid #fff;
+  box-shadow: 0 0 24px #fff;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  animation: apper 7s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.hlmn3 {
+  min-height: 100vh;
+  background: linear-gradient(
+    to bottom,
+    rgba(247, 177, 0, 0.9),
+    rgba(255, 255, 255, 0.9)
+  );
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+  gap: 1.7em;
+  color: #fff;
+  text-shadow: 0 0 7px #111;
+}
+
+.hlmn3 h1 {
+  font-size: 1.7rem;
+  animation: apper 7s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.hlmn3 p {
+  font-size: 1.1rem;
+  animation: apper 7s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+  margin-top: 2em;
+}
+
+.hlmn3 h3 {
+  font-size: 1.7rem;
+  animation: apper 7s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.rating {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+  font-size: 3rem;
+  animation: apper 7s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+  display: inline;
+}
+
+.rating h2 {
+  font-size: 1.9rem;
+  margin-top: 3em;
+  animation: apper 7s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.rating input {
+  display: none;
+  animation: apper 7s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.rating label {
+  color: #ccc;
+  cursor: pointer;
+  animation: apper 7s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.rating input:checked ~ label,
+.rating label:hover,
+.rating label:hover ~ label {
+  color: gold;
+}
+
+.hlmn3 a {
+  background-color: #fff;
+  max-width: 300px;
+  padding: 14px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #111;
+  text-shadow: none;
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.479);
+  margin: 0 auto;
+  border-radius: 24px;
+  text-decoration: none;
+  transition: 0.4s ease;
+  animation: apper 7s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 14%;
+}
+
+.hlmn3 a:hover {
+  color: #f0f0f0;
+  background-color: rgb(255, 0, 81);
+  transform: scale(1.1);
+}
+
+.scroll-container {
+  position: fixed;
+  bottom: 10px;
+  text-align: center;
+  justify-content: center;
+  right: 0;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(255, 0, 72);
+  box-shadow: 0 0 17px rgba(0, 0, 0, 0.407);
+  display: flex;
+  align-items: center;
+}
+
+.scroll-text {
+  display: flex;
+  white-space: nowrap;
+  position: relative;
+  left: 0;
+}
+
+.scroll-text span {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #f0f0f0;
+}
+
+.ping {
+  position: relative;
+  bottom: 40px;
+  font-size: 1.7rem;
+  background: pink;
+  font-weight: 500;
+  transition: 3s ease;
+}
+
+/* Suprise Page */
+
+.sups1 {
+  margin: auto;
+  text-align: center;
+  animation: apper 7s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 23%;
+  margin-top: 3em;
+  min-height: 150vh;
+}
+
+.sups1 h1 {
+  color: #fff;
+  margin-top: 6em;
+  animation: apper 7s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.sups1 h1 span {
+  font-size: 2rem;
+  animation: apper 7s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+  color: orange;
+}
+
+.wrapper {
+  width: 90%;
+  animation: apper 7s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+  max-width: 1536px;
+  margin-inline: auto;
+  position: relative;
+  height: 100px;
+  margin-top: 5rem;
+  overflow: hidden;
+  mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1) 20%,
+    rgba(0, 0, 0, 1) 80%,
+    rgba(0, 0, 0, 0)
+  );
+}
+
+.item {
+  animation: apper 7s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+  width: 130px;
+  height: 100px;
+  background-color: red;
+  border-radius: 6px;
+  position: absolute;
+  left: calc(100px * 4);
+  animation: scrollLeft 15s linear infinite;
+  animation-delay: -10s;
+  overflow: hidden;
+}
+
+.item1 {
+  animation-delay: calc(15s / 4 * (7 - 1) * -1);
+}
+.item2 {
+  animation-delay: calc(15s / 4 * (7 - 2) * -1);
+}
+.item3 {
+  animation-delay: calc(15s / 4 * (7 - 3) * -1);
+}
+.item4 {
+  animation-delay: calc(15s / 4 * (7 - 4) * -1);
+}
+
+@keyframes scrollLeft {
+  to {
+    left: -200px;
+  }
+}
+
+@keyframes scrollRight {
+  to {
+    right: -200px;
+  }
+}
+
+.wrapser {
+  animation: apper 7s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+  width: 90%;
+  max-width: 1536px;
+  margin-inline: auto;
+  position: relative;
+  height: 100px;
+  margin-top: 5rem;
+  overflow: hidden;
+  mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1) 20%,
+    rgba(0, 0, 0, 1) 80%,
+    rgba(0, 0, 0, 0)
+  );
+}
+
+.items {
+  width: 130px;
+  height: 100px;
+  background-color: red;
+  animation: apper 7s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+  border-radius: 6px;
+  position: absolute;
+  right: calc(100px * 4);
+  animation: scrollRight 15s linear infinite;
+  animation-delay: 15s;
+  overflow: hidden;
+}
+
+.items1 {
+  animation-delay: calc(15s / 4 * (7 - 1) * -1);
+}
+.items2 {
+  animation-delay: calc(15s / 4 * (7 - 2) * -1);
+}
+.items3 {
+  animation-delay: calc(15s / 4 * (7 - 3) * -1);
+}
+.items4 {
+  animation-delay: calc(15s / 4 * (7 - 4) * -1);
+}
+
+.item img,
+.items img {
+  width: 130px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.var-blt {
+  /* background-color: red; */
+  padding: 5rem;
+  position: fixed;
+  top: 50vh;
+  right: 50%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  opacity: 70%;
+  border-radius: 50%;
+  z-index: -1;
+  filter: blur(50px);
+  animation: var 5s infinite, spin 1s linear infinite;
+}
+
+.var-blt .red {
+  background-color: red;
+  padding: 5rem;
+  position: fixed;
+  top: 5px;
+  border-radius: 50%;
+  z-index: -1;
+}
+.var-blt .blue {
+  background-color: blue;
+  padding: 5rem;
+  position: fixed;
+  top: 20px;
+  left: 180px;
+  border-radius: 50%;
+  z-index: -1;
+}
+.var-blt .yellow {
+  background-color: yellow;
+  padding: 5rem;
+  position: fixed;
+  top: 100px;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+@keyframes var {
+  0% {
+    transform: scale(1);
+    left: -100%;
+    opacity: 20%;
+  }
+
+  50% {
+    transform: scale(5);
+    left: 50%;
+    opacity: 50%;
+  }
+
+  100% {
+    transform: scale(1);
+    left: -100%;
+    opacity: 10%;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.cont-sups h1 {
+  margin-top: 2rem;
+  font-size: 1.6rem;
+  animation: apper 7s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+  padding-bottom: 8em;
+}
+
+.cont-sups h3 {
+  font-size: 1.3rem;
+  animation: apper 7s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+/* Hlmn Finish */
+
+.last-hlmn {
+  min-height: 100vh;
+  margin-top: 14rem;
+}
+
+.wrapper2 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  animation: apper 7s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+  align-items: center;
+  justify-content: center;
+}
+
+.container2 {
+  height: 400px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: start;
+  animation: apper 7s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.card2 {
+  animation: apper 7s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+  border-radius: 0.75rem;
+  width: 80px;
+  background-size: cover;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 2rem;
+  margin: 0 10px;
+  display: flex;
+  align-items: flex-end;
+  transition: 0.6s cubic-bezier(0.28, -0.03, 0, 0.99);
+  box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 1);
+}
+
+.card2 > .row {
+  color: #fff;
+  display: flex;
+  flex-wrap: nowrap;
+  animation: apper 7s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.card2 > .row > .icon {
+  background: #232;
+  animation: apper 7s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+  color: #fff;
+  border-radius: 50%;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.card2 > .row > .deskripsi {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+  height: 80px;
+  width: 520px;
+  opacity: 0;
+  transform: translateY(30px);
+  transition-delay: 0.3s;
+  transition: 0.3s ease;
+  animation: apper 7s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.deskripsi p {
+  color: #fff;
+  padding-top: 5px;
+  font-size: 14px;
+  width: 35%;
+  font-weight: 500;
+  text-shadow: 0px 0px 6px rgba(0, 0, 0, 1);
+}
+
+.deskripsi h4 {
+  text-transform: uppercase;
+}
+
+input {
+  display: none;
+}
+
+input:checked + label {
+  width: 1000px;
+}
+
+input:checked + label .deskripsi {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+
+.card2[for="c1"] {
+  background-image: url(./img/pity-9.jpeg);
+}
+.card2[for="c2"] {
+  background-image: url(./img/pity-10.jpeg);
+}
+.card2[for="c3"] {
+  background-image: url(./img/pity-11.jpeg);
+}
+.card2[for="c4"] {
+  background-image: url(./img/pity-13.jpeg);
+}
+
+.last-hlmn .txt-info {
+  margin: auto;
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 2rem;
+}
+
+.last-hlmn .desk-crd {
+  animation: apper 7s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+  margin: auto;
+  text-align: center;
+  width: 50vh;
+  margin-top: 3em;
+}
+
+/* Audio */
+Z
+.sups1 .audio-fav p,
+.sups1 p {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.sups1 .audio-fav {
+  gap: 1em;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+}
+
+/* Last Piti */
+.last-piti {
+  min-height: 45vh;
+}
+
+
+
+.card-containers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  animation: apper 7s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+.cardss {
+  width: 160px;
+  background-color: #222724;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
+  cursor: pointer;
+  transition: 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.cardss.blur {
+  filter: blur(4px);
+  pointer-events: none;
+}
+
+.cardss.active {
+  transform: scale(1.05);
+  
+}
+
+.cardss img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.cardss .info {
+ display: none;
+ padding: 10px;
+ text-align: center;
+ font-size: 14px;
+ 
+}
+
+.cardss.active .info {
+display: block;
+
+}
+
+
+.header-book {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 1.4em;
+}
+
+
+.scroll {
+  margin-bottom: 10rem;
+  padding-bottom: 7rem;
+  text-align: center;
+  font-size: 23px;
+}
+
+
+
+.form-wa {
+  min-height: 40vh;
+  animation: apper 7s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+  
+}
+
+form {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 45%;
+
+}
+
+form label {
+  display: block;
+  animation: apper 7s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+  margin-bottom: 5px;
+}
+
+form input, form textarea {
+  width: 90%;
+  padding: 5px;
+  padding-bottom: 5rem;
+  margin-bottom: 10px;
+  resize: vertical;
+  border-radius: 5px;
+  background: transparent;
+  color: #fff;
+  border: 2px solid white;
+  font-weight: 500;
+}
+
+form button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 15px;
+  margin-top: 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 35px;
+  transition: .3s ease;
+  animation: apper 7s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 10%;
+}
+
+form button:hover {
+  background: green;
+  transform: scale(1.1);
+}
+
+.txt-out {
+  text-align: center;
+  margin-bottom: 3em;
+}
+
+.txt-out p {
+  width: 85%;
+  margin: 0 auto;
+}
+
+footer {
+  padding: 10px 0;
+  text-align: center;
+  margin-top: 40px;
+  background-color: #111111a1;
+}
+
+footer .cont-foot {
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+footer .foot-link {
+  margin-top: 10px;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.foot-link a {
+  text-decoration: none;
+  color: #ccc;
+  transition: color .3s ease;
+}
+
+.foot-link a:hover {
+  color: #fff;
+}
+
+
+.cont-foot p {
+  animation: apper 7s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 5%;
+}
+
+
+.header-book h1,
+.scroll,
+.txt-info {
+  animation: apper 7s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+
+/* Animasi Manual */
+/* @keyframes apper {
+  from {
+    scale: 0.5;
+    opacity: 0;
+    filter: blur(4px);
+  }
+  to {
+     scale: 1;
+    opacity: 1;
+    filter: blur(0);
+  }
+} */
