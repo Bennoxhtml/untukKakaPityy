@@ -217,16 +217,6 @@ html {
 }
 
 .hlmn2 {
-  background-image: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 1),
-      rgba(0, 0, 0, 0)
-    ),
-    url(/img/bg.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 100vh;
   color: #fff;
   margin: auto;
   display: flex;
@@ -271,11 +261,6 @@ html {
 
 .hlmn3 {
   min-height: 100vh;
-  background: linear-gradient(
-    to bottom,
-    rgba(247, 177, 0, 0.9),
-    rgba(255, 255, 255, 0.9)
-  );
   display: flex;
   flex-direction: column;
   margin: auto;
